@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/sides_margins"
+    android:gravity="center"
+    android:orientation="vertical">
+
+        <EditText
+            style="@style/BoxEditText"
+            android:id="@+id/first_name_reg"
+            android:hint="@string/first_name_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_margins"/>
+
+        <EditText
+            style="@style/BoxEditText"
+            android:id="@+id/last_name_reg"
+            android:hint="@string/last_name_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_margins"/>
+
+         <EditText
+            style="@style/BoxEditText"
+            android:id="@+id/phone_reg"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:hint="@string/phone_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_margins"/>
+
+        <EditText
+            style="@style/BoxEditText"
+            android:id="@+id/email_reg"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_margins"/>
+
+        <EditText
+            style="@style/BoxEditText"
+            android:id="@+id/pass_reg"
+            android:inputType="textPassword"
+            android:hint="@string/pass_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_margins"/>
+
+
+        <Button
+            style="@style/BoxBtn"
+            android:id="@+id/submit_btn"
+            android:text="@string/submit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_margins"/>
+
+
+
+
+
+</LinearLayout>

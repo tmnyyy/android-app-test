@@ -17,6 +17,11 @@ public class DbHandler {
         dbHelper = new DbHelper(context);
     }
 
+    /**
+     * Функция по сахранению пользователя в БД
+     * @param user
+     * @return true or false
+     */
     public boolean saveUserData(Member user){
         ContentValues values = new ContentValues();
         values.put(DbTable.COL_USER_FNAME, user.getUser_fname());
